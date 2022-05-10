@@ -1,0 +1,21 @@
+{
+  "name": "github-nonicons",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/yamatsum/github-nonicons.git",
+  "author": "yamatsum",
+  "license": "MIT",
+  "dependencies": {
+    "file-icons-js": "websemantics/file-icons-js",
+    "selector-observer": "^2.1.6",
+    "webpack": "^5.72.1"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "webpack-cli": "^4.9.2"
+  }
+}

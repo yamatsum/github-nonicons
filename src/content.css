@@ -1,0 +1,29 @@
+/* ----------------------------[ Fonts ]---------------------------------- */
+
+@font-face {
+  font-family: nonicons;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/nonicons.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ----------------------------[ Icons ]---------------------------------- */
+
+.icon:before {
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  width: 16px;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lua-icon:before {
+  font-family: nonicons;
+  font-size: 15px;
+  content: "\f182";
+  top: 2px;
+  font-size: 14px;
+}
